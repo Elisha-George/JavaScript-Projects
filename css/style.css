@@ -1,0 +1,45 @@
+:root{
+/* access a variable -var(variable); */
+
+
+/* Screens */
+--tablet:768px;
+--desktop:1024px;
+
+/* Colors */
+--color-primary: blue;
+--color-body-text: white;
+
+/* Dimensions */
+--dim-sm:4px;
+--dim-md:8px;
+--dim-lg:16px;
+
+
+/* font family */
+/* 
+--font-family-primary: 
+--font-family-secondary: */
+
+
+/* Letter spacing */
+
+--letter-spacing-h1:28px;
+--letter-spacing-h2:28px;
+--letter-spacing-body:18px;
+
+
+/* Line Height */
+--line-height-h1:28px;
+--line-height-h2:28px;
+--line-height-body:18px;
+
+}
+
+
+@media screen and (min-width: 768px)
+{
+    :root{
+        --line-height-body:22px;
+    }
+}
